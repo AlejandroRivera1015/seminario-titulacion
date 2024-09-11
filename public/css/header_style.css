@@ -1,0 +1,33 @@
+header{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav-item a{
+    color: white;
+}
+
+.nav-item a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 15%;
+}
+
+a{
+    position: relative !important;
+}
+
+#site-icon{
+    justify-content: center;
+    position: relative;
+    z-index:1 ;
+    display: contents;
+
+
+
+}
+#img-site-icon
+{
+    max-width: 4% !important;
+    margin: 0px 10px 0px 30px;
+}
+

@@ -1,0 +1,145 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+::placeholder { color: white !important; }
+
+
+
+.slide{
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    text-align: center; 
+    
+}
+
+tr:hover{
+    background-color:rgba(0, 255, 170, 0.6) !important;
+}
+
+#buscador{
+    align-items: center;
+    text-align: center;
+}
+
+
+form{
+    margin: 10px;
+}
+
+#sent{
+    background-color:rgba(0, 255, 170, 0.6) !important;
+    color: black !important ;
+    width: 150px;
+
+
+}
+input, select {
+    align-items: center;
+    text-align: center;
+    background-color: rgba(20, 20, 20, 0.6);
+    color: white !important;
+    margin: 10px !important;
+    border-radius: 20px !important;
+    width: 300px;
+
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+
+.row_data{
+    border-color: black !important;
+}
+
+
+
+ul.pagination {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+ul.pagination li {
+    display: inline;
+    border: 3px;
+    border: 1px solid black ;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+ul.pagination li :hover {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    color: white;
+
+}
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.dataWarning{
+    background-color: rgba(255, 0, 0, 0.6);
+    color: white;
+} 
+
+
+@media (orientation:landscape) {
+
+    body{
+        min-height:100vh;
+        display:flex;
+        flex-direction:column;
+    }
+    Footer {margin-top:auto;}
+
+
+
+}
+
+@media (orientation : portrait) {
+
+    body{
+        min-height:100vh;
+        display:flex;
+        flex-direction:column;
+    }
+    Footer {margin-top:auto;}
+
+
+        
+    
+    
+}
+
